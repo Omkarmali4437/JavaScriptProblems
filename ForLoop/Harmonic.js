@@ -12,7 +12,6 @@ const readline = require('readline').createInterface({
 
 function checkHarmonic(number){
     var harmonic=0;
-
     for(i=1;i<=number;i++){
         harmonic+=1/i;
     }
